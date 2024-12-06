@@ -4,3 +4,4 @@ pandas==2.2.3
 scikit_learn==1.5.2
 gunicorn
 dash-tools
+fastparquet

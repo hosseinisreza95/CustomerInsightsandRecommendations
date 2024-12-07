@@ -112,7 +112,7 @@ app.layout = html.Div(
                     dbc.Col(
                         html.H1("Customer Insights and Recommendations",
                                 className="text-center",
-                                style={"color": "#00BCD4", "marginBottom":"100px"}  # Increase bottom margin for more space
+                                style={"color": "#00BCD4", "marginBottom":"75px"}  # Increase bottom margin for more space
                                ), 
                     width=12)
                 ),

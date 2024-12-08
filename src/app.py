@@ -276,15 +276,20 @@ def show_items_table(data):
             unit_price = product_info["UnitPrice"].mean()
         else:
             unit_price = 0.0
+
+        # محاسبه قیمت کل این ردیف
+        total_item_cost = unit_price * item["quantity"]
+
         rows.append(html.Tr([
             html.Td(i),
             html.Td(item["product"]),
             html.Td(item["quantity"]),
             html.Td(item["date"]),
-            html.Td(f"${total_item_cost:.2f}")
+            html.Td(f"${unit_price:.2f}"),              # Unit price
+            html.Td(f"${total_item_cost:.2f}")          # Total price
         ]))
     table = dbc.Table(
-        [html.Thead(html.Tr([html.Th("#"), html.Th("Product"), html.Th("Quantity"), html.Th("Date"), html.Th("Total") ])),
+        [html.Thead(html.Tr([html.Th("#"), html.Th("Product"), html.Th("Quantity"), html.Th("Date"), html.Th("Price"), html.Th("Total") ])),
          html.Tbody(rows)],
         bordered=True, dark=True, hover=True, responsive=True, striped=True
     )

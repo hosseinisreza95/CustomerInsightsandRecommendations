@@ -96,7 +96,7 @@ def calculate_rfm_for_inputs(records):
         quantity = r["quantity"]
         date_str = r["date"]
         if not product or not date_str or quantity <= 0:
-            return None, "Invalid input records."
+            return None, "You choose a date form future"
 
         chosen_date = pd.to_datetime(date_str)
         all_dates.append(chosen_date)

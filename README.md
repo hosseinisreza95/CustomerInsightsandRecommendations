@@ -103,10 +103,10 @@ The web application is built using Python, Dash, and Plotly, and it employs mach
 ## Screenshots
 
 ### 3D Cluster Visualization
-![3D Cluster]([https://github.com/hosseinisreza95/CustomerInsightsandRecommendations/blob/main/screenshot/pic2.png])
+![3D Cluster](https://github.com/hosseinisreza95/CustomerInsightsandRecommendations/blob/main/screenshot/pic2.png)
 
 ### User Inputs and Recommendations
-![Inputs and Recommendations]([https://github.com/hosseinisreza95/CustomerInsightsandRecommendations/blob/main/screenshot/pic3.png])
+![Inputs and Recommendations](https://github.com/hosseinisreza95/CustomerInsightsandRecommendations/blob/main/screenshot/pic3.png)
 
 ---
 

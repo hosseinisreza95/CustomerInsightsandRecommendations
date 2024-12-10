@@ -64,6 +64,8 @@ The web application is built using Python, Dash, and Plotly, and it employs mach
 
 ### Prerequisites
 
+### Prerequisites
+
 - Python 3.8 or above
 - Required libraries listed in `requirements.txt`
 
@@ -73,3 +75,59 @@ The web application is built using Python, Dash, and Plotly, and it employs mach
    ```bash
    git clone https://github.com/hosseinisreza95/CustomerInsightsandRecommendations.git
    cd CustomerInsightsandRecommendations
+
+
+
+## File Structure
+
+- `app.py`: Main application script.
+- `exported_data.parquet`: Example dataset used for customer insights.
+- `requirements.txt`: List of Python dependencies.
+- `utils/`: Contains macros and helper scripts for LaTeX reports.
+- `report.tex`: A detailed LaTeX report template.
+
+---
+
+## Example Usage
+
+1. **Launch the Application**:
+   Open the app and interact with the input fields.
+
+2. **Add Items**:
+   Enter product details, quantity, and purchase date.
+
+3. **Analyze Insights**:
+   Calculate RFM values and view cluster assignments.
+
+4. **Get Recommendations**:
+   Receive tailored product recommendations.
+
+---
+
+## Screenshots
+
+### 3D Cluster Visualization
+![3D Cluster](https://your-image-url-placeholder.com) <!-- Replace with actual screenshots -->
+
+### User Inputs and Recommendations
+![Inputs and Recommendations](https://your-image-url-placeholder.com)
+
+---
+
+## Acknowledgements
+
+This project is part of a learning and research initiative. Special thanks to all contributors and supporters.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## Contact
+
+For queries, suggestions, or feedback, please reach out to [Reza Hosseini](https://github.com/hosseinisreza95).
+
+

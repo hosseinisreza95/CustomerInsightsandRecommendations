@@ -32,7 +32,6 @@ The web application is built using Python, Dash, and Plotly, and it employs mach
 
 ## Application Links
 
-- **GitHub Repository**: [Customer Insights and Recommendations](https://github.com/hosseinisreza95/CustomerInsightsandRecommendations)
 - **Live Application**: [Customer Insights App](https://customerinsightsandrecommendations.onrender.com/)
 
 ---
@@ -77,14 +76,11 @@ The web application is built using Python, Dash, and Plotly, and it employs mach
    cd CustomerInsightsandRecommendations
 
 
-
 ## File Structure
 
-- `app.py`: Main application script.
+- `src/app.py`: Main application script.
 - `exported_data.parquet`: Example dataset used for customer insights.
 - `requirements.txt`: List of Python dependencies.
-- `utils/`: Contains macros and helper scripts for LaTeX reports.
-- `report.tex`: A detailed LaTeX report template.
 
 ---
 
@@ -107,10 +103,10 @@ The web application is built using Python, Dash, and Plotly, and it employs mach
 ## Screenshots
 
 ### 3D Cluster Visualization
-![3D Cluster](https://your-image-url-placeholder.com) <!-- Replace with actual screenshots -->
+![3D Cluster]([https://your-image-url-placeholder.com](https://github.com/hosseinisreza95/CustomerInsightsandRecommendations/blob/main/screenshot/pic2.png))
 
 ### User Inputs and Recommendations
-![Inputs and Recommendations](https://your-image-url-placeholder.com)
+![Inputs and Recommendations]([https://your-image-url-placeholder.com](https://github.com/hosseinisreza95/CustomerInsightsandRecommendations/blob/main/screenshot/pic3.png))
 
 ---
 

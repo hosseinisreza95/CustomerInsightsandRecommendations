@@ -1,6 +1,6 @@
 # Customer Insights and Recommendations
 
-![Dashboard Screenshot](https://your-image-url-placeholder.com) <!-- Replace with an actual screenshot -->
+![Dashboard Screenshot](https://github.com/hosseinisreza95/CustomerInsightsandRecommendations/blob/main/screenshot/pic1.png)
 
 ## Overview
 

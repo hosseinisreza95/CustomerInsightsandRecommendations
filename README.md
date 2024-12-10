@@ -110,12 +110,6 @@ The web application is built using Python, Dash, and Plotly, and it employs mach
 
 ---
 
-## Acknowledgements
-
-This project is part of a learning and research initiative. Special thanks to all contributors and supporters.
-
----
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
